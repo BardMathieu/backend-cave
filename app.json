@@ -1,0 +1,16 @@
+{
+  "name": "Nest.js authentication",
+  "description": "Nest.js authentication with Passport. Realworld example",
+  "repository": "https://github.com",
+  "keywords": ["node", "nestjs", "passport", "typescript", "mongoose", "authentication"],
+  "env": {
+    "APP_SECRET": {
+      "description": "A secret key for verifying the integrity of JWT.",
+      "generator": "secret"
+    }
+  },
+  "addons": [""],
+  "scripts": {
+    "postdeploy": ""
+  }
+}
